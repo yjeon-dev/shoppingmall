@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+	.oAddModify_path{
+	font-size:13px;
+	margin-left:80%;
+	text-decoration: none;
+	}
+	strong{
+		color:gray;
+	}
+	p{
+		display:inline;
+		color:gray;
+		font-size:13px;
+	}
+	#oAddModify_box{
+		border-bottom: 1px solid gray;
+		padding-bottom:10px;
+		margin-left:15%;
+		width:1198px;
+	}
+	
+	#oAddModify_ca{
+		margin-top:30px;
+		margin-left:15%;
+		width:1200px;
+		height:117px;
+		border:1px solid lightgray;
+		border-collapse: collapse;
+		margin-bottom:100px;
+	}
+	#oAddModify_caution{
+		border-bottom:lightgray;
+		background: #e8e7e7;
+		text-size:11px;
+	}
+	li{
+		color:gray;
+		font-size:13px;
+	}
+	#oAddModify_btns{
+		margin-top:10px;
+		margin-left:70%;
+	}
+	#oAddModify_basicSave{
+		margin-left:80%;
+	}
+	#oAddModify_submit{
+		background: #3A4050;
+		color: white;
+		border-radius: 7px;
+		width:100px;
+		height:30px;
+	}
+	#oAddModify_btn{
+		background: white;
+		border-radius: 7px;
+		width:100px;
+		height:30px;
+		
+	}
+	span{
+		display:inline;
+		font-size:15px;
+	}
+	.oAddModify_address1{
+		margin-left:15%;
+		border-bottom : 1px solid gray; 
+		padding-bottom:10px; 
+		width:1198px;
+	}
+	.oAddModify_address2{
+		margin-top:10px;
+		margin-left:5%;
+	}
+	
+	

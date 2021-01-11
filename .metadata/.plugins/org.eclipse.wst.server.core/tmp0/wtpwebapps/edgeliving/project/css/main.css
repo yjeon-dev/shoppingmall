@@ -1,0 +1,509 @@
+@charset "UTF-8";
+
+* {
+   box-sizing: border-box;
+}
+
+#header {
+   width: 90%;
+   margin: 0px auto;
+   background: white;
+}
+
+.header1 {
+   float: left;
+   width: 33%;
+   height: 110px;
+   margin: auto auto;
+   text-align: center;
+   margin-top: 50px;
+}
+
+.header_a2 {
+   font-size: 12px;
+   padding-top: 50px;
+   margin-top: 50px;
+}
+
+.search_a {
+   font-size: 11px;
+}
+
+a {
+   text-decoration: none;
+   color: graytext;
+   text-align: center;
+}
+
+#footer {
+   clear: both;
+   width: 90%;
+   margin: 0px auto;
+   background: white;
+   text-align: center;
+}
+
+.nav {
+   width: 80%;
+   height: 200px;
+   margin: auto auto;
+   text-align: center;
+   margin-top: 50px;
+   background: gray;
+}
+
+.menu {
+   width: 100%;
+   text-align: center;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+#mainlogo {
+   width: 75px;
+}
+
+#topMenu {
+   width: 1600px;
+   border-top: 1px solid gray;
+   display: flex;
+   padding-top: 10px;
+   border-bottom: 1px solid gray;
+   padding-bottom: 10px;
+}
+
+#topMenu li {
+   width: 300px;
+   list-style: none;
+   text-align: center;
+}
+
+#topMenu li:nth-child(-n+4) {
+   border-right: 1px solid gray;
+}
+
+#topAtag {
+   padding-top: 40px;
+   height: 70px;
+}
+
+#footTimelogo {
+   width: 50px;
+   display: inline-block;
+   float: left;
+}
+
+.footdiv {
+   width: 280px;
+   display: inline-block;
+   margin-left: 30px;
+   margin-right: 50px;
+   text-align: left;
+}
+
+.footPdiv {
+   display: inline-block;
+   padding-left: 20px;
+}
+
+.footPtag {
+   line-height: 2px;
+   color: gray;
+   font-size: 12px;
+}
+
+.footText {
+   color: pink;
+   font-size: 25px;
+   border-bottom: 1px solid pink;
+   padding-bottom: 10px;
+   paddin-left: 20px;
+   font-weight: bold;
+}
+
+.footPhone {
+   font-size: 28px;
+   border-bottom: 1px solid gray;
+   padding-bottom: 10px;
+   paddin-left: 20px;
+   font-weight: bold;
+}
+
+.footTimeImgDiv {
+   float: left;
+}
+
+#footUldiv {
+   margin-top: 10px;
+   clear: both;
+   width: 1600px;
+   border-top: 1px solid gray;
+}
+
+#footUl {
+   width: 500px;
+   display: flex;
+   padding-top: 10px;
+   text-align: center;
+   margin: 0px auto;
+}
+
+.footli {
+   width: 150px;
+   list-style: none;
+   text-align: center;
+   font-size: 12px;
+}
+
+#footUl li:nth-child(-n+3) {
+   border-right: 1px solid gray;
+}
+
+#footUl2 {
+   width: 45%;
+   display: flex;
+   padding-top: 10px;
+   text-align: center;
+   margin: 0px auto;
+}
+
+.footli2 {
+   list-style: none;
+   text-align: center;
+   font-size: 12px;
+   padding-left: 10px;
+   padding-right: 10px;
+   color: #444444;
+}
+
+#footUl2 li:nth-child(-n+2) {
+   border-right: 1px solid gray;
+}
+
+#footUl3 {
+   width: 800px;
+   display: flex;
+   padding-top: 10px;
+   text-align: center;
+   margin: 0px auto;
+}
+
+.footli3 {
+   list-style: none;
+   text-align: center;
+   font-size: 12px;
+   padding-left: 10px;
+   padding-right: 10px;
+   color: #444444;
+}
+
+#footUl3 li:nth-child(-n+2) {
+   border-right: 1px solid gray;
+}
+
+#footText {
+   margin-top: 10px;
+   clear: both;
+   width: 1600px;
+   line-height: 1px;
+}
+
+#footText2 {
+   margin-top: 10px;
+   clear: both;
+   width: 1600px;
+   line-height: 1px;
+}
+
+#allCategory:hover {
+   color: pink;
+}
+
+#newProd:hover {
+   color: pink;
+}
+
+#best50:hover {
+   color: pink;
+}
+
+#brand:hover {
+   color: pink;
+}
+
+#review:hover {
+   color: pink;
+}
+/* 가격 css 시작 */
+
+.mainPrice{
+	color: #aaaaaa;
+	text-decoration: line-through;
+	font-size: 11px;
+}
+.strongPrice{
+	color : #444444;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+	
+}
+/* 가격 css 끝 */
+/* 메뉴바 */
+	.jbFixed{
+		position: fixed;
+		top: 0px;
+		background: white;
+
+		padding-bottom : 10px;
+		margin-top : 0px;
+		border-bottom: 1px solid gray;
+	}
+/*  BEST10 베스트10 CSS 시작 */
+#best10Text {
+	padding-top: 200px;
+	padding-bottom: 50px;
+	margin: 0px auto;
+	width: 1920px;
+	font-size: 28px;
+	font-weight: bolder;
+	text-align: center;
+	background: #f5f5f5;
+}
+
+.best10Img {
+	width: 226px;
+	height: 226px;
+}
+
+#best10 {
+	width: 1920px;
+	background: #f5f5f5;
+	margin: 0px auto;
+}
+
+.best10Div {
+	width: 250px;
+	display: inline-block;
+	text-align: center;
+	height: 380px;
+	padding-top: 10px;
+}
+
+#best10ImgDiv {
+	margin-left: 300px;
+	margin-right: 300px;
+	padding-bottom: 100px;
+}
+
+/* best10 베스트10 css 끝 */
+
+/* 이미지슬라이더 css 시작 */
+.slideshow-container {
+	margin-top: 10px;
+	padding-top: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.main_slideImg {
+	width: 1800px;
+}
+
+/* 이미지슬라이더 css 끝 */
+
+/*  new10 신상품10 CSS 시작 */
+		#new10Text {
+	padding-top: 100px;
+	padding-bottom: 50px;
+	margin: 0px auto;
+	width: 1800px;
+	font-size: 28px;
+	font-weight: bolder;
+	text-align: center;
+	background: #f5f5f5;
+}
+
+.new10Img {
+	width: 226px;
+	height: 226px;
+}
+
+#new10 {
+	width: 1920px;
+	background: #f5f5f5;
+	margin: 0px auto;
+}
+
+.new10Div {
+	width: 250px;
+	display: inline-block;
+	text-align: center;
+	height: 380px;
+	padding-top: 10px;
+}
+
+#new10ImgDiv {
+	margin-left: 300px;
+	margin-right: 300px;
+	padding-bottom: 100px;
+}
+
+/* new10 신상품10 css 끝 */
+
+/* 추천상품 시작 */
+
+#recommendText {
+	padding-top: 100px;
+	padding-bottom: 50px;
+	margin: 0px auto;
+	width: 1920px;
+	font-size: 28px;
+	font-weight: bolder;
+	text-align: center;
+	background: #ffffff;
+}
+
+.recommendImg {
+	width: 226px;
+	height: 226px;
+}
+
+#recommend10 {
+	width: 1920px;
+	background: #ffffff;
+	margin: 0px auto;
+}
+
+.recommendDiv {
+	width: 250px;
+	display: inline-block;
+	text-align: center;
+	height: 380px;
+	padding-top: 10px;
+}
+
+#recommendImgDiv {
+	margin-left: 300px;
+	margin-right: 300px;
+	padding-bottom: 100px;
+}
+#recommend{
+background: #ffffff;
+}
+
+/* 추천상품 끝 */
+
+/* 브랜드 top4 시작 */
+	#brandText {
+	padding-top: 100px;
+	padding-bottom: 50px;
+	margin: 0px auto;
+	width: 1920px;
+	font-size: 28px;
+	font-weight: bolder;
+	text-align: center;
+	background: #ffffff;
+}
+	
+	.brandDiv {
+		display: inline-block;
+		width: 200px;
+		text-align: center;
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+	#brandTop4{
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+	#brandImgDiv{
+	
+	margin-left: 300px;
+	margin-right: 300px;
+	padding-bottom: 100px;
+	}
+/* 브랜드 top4 끝 */
+
+/* 191226 로그인 길준영 */
+#login_container {
+   margin: 0px 300px;
+   width: 1000px;
+   height: 500px;
+   padding-top: 20px;
+}
+
+#login_title {
+   margin-top: 100px;
+   
+}
+
+#login_main {
+   width: 1200px;
+   height: 300px;
+   background: #f5f5f5;
+   padding-left: 50px;
+   padding-top: 30px;
+   margin-right: 100px;
+   border: 0.2px solid #afafaf;
+}
+
+#login_sub_title {
+   padding-left: 470px;
+}
+
+#login_leftarea {
+   float: left;
+   margin-right: 30px;
+   width: 170px;
+   height: 200px;
+   padding-left: 50px;
+}
+
+#login_rightarea {
+   float: left;
+   margin-right: 30px;
+   width: 600px;
+   height: 200px;
+   padding-left: 100px;
+   margin-top: 30px;
+   /*list-style: none;*/
+}
+
+#login_button_div {
+   float: left;
+   width: 250px;
+   height: 130px;
+   border-right: 1px solid gray;
+   margin-left: 50px;
+}
+
+#login_button {
+   height: 80px;
+   width: 100px;
+   background: #222222;
+   color: white;
+   border-radius: 10px;
+   outline: none;
+   margin-top: 25px;
+   
+}
+
+#login_button:hover {
+   background: #FFFAFA;
+   color: black;
+}
+
+#login_id {
+   border-radius: 10px;
+   height: 30px;
+   margin-top: 30px;
+}
+
+#login_pw {
+   margin-top: 15px;
+   border-radius: 10px;
+   height: 30px;
+   margin-top: 15px;
+}
+/* 191226 로그인 길준영 끝*/

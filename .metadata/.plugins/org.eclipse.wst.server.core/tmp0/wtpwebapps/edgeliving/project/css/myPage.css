@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+
+	.myPage_path{
+	font-size:13px;
+	margin-left:90%;
+	text-decoration: none;
+	}
+	
+	strong{
+		color:gray;
+	}
+	#myPage_info{
+		width:1198px;
+		height:90px;
+		border : 1px solid lightgray;
+		margin-left : 15%;
+		margin-bottom : 1%;
+	}
+	img{
+		float : left;
+		padding-top: 10px;
+		margin-left : 10px;	
+	}
+	span{
+		float : left;
+		height:60px;
+		border-right : 1px solid lightgray;
+		margin-top:15px;
+		margin-left : 25px;	
+	}
+	#myPage_thanks{
+		float : left;
+		height:70px;
+		padding-top: 30px;
+		margin-left : 30px;
+		font-size : 15px;
+	}
+	.myPage_ptag{
+	display : inline;
+	font-size : 13px;
+	color : gray;
+	}
+	#myPage_orderStatus{
+		width : 1198px;
+		height : 150px;
+		border : 1px solid gray;
+		margin-left : 15%;
+		margin-bottom : 1%;
+
+	}
+	#myPage_orderStatus1{
+		height : 40px;
+		padding-top : 11px;
+		padding-bottom : 11px;
+		padding-left:21px;
+		background : #F6F6F6;
+		border-bottom : 1px solid lightgray;
+	}
+	#myPage_orderStatus2, #myPage_orderStatus3, #myPage_orderStatus4, #myPage_orderStatus5{
+		font-weight : bold;
+		float : left;
+		width : 240px;
+		height : 60px; 
+		margin-top : 28px;
+		margin-left : 10px;
+		margin-right : 10px;
+		text-align: center;
+		border-right : 1px dotted lightgray;
+	}
+	#myPage_orderStatus6{
+		float : left;
+		width : 100px;
+		height : 60px;
+		margin-top : 23px;
+		text-align: center;
+		font-size : 12px;
+	}
+	#myPage_order{
+		float : left;
+		margin-left : 16%;
+		padding : 10px 10px 10px 10px;	
+		border:1px solid lightgray;
+		border-radius: 10px;
+		font-size : 13px;
+		width:280px;
+		height:180px;
+		margin-bottom : 7%;
+	}
+	#myPage_profile, #myPage_review, #myPage_address{
+		float : left;
+		margin-left : 10px;
+		padding : 10px 10px 10px 10px;	
+		border:1px solid lightgray;
+		border-radius: 10px;
+		font-size : 13px;
+		width:280px;
+		height:180px;
+		margin-bottom : 7%;
+	}
+	
+	.myPage_ptag2{
+		font-size : 13px;
+		color : gray;
+	}
+	.myPage_ptag3{
+		padding: 0 0 0 0px;
+		display : inline;
+		font-size : 13px;
+		color : black;
+	}
+	b{
+		color : black;
+	}

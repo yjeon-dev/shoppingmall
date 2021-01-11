@@ -1,0 +1,9 @@
+127.0.0.1 - - [06/Dec/2020:12:42:12 +0900] "GET / HTTP/1.1" 404 750
+0:0:0:0:0:0:0:1 - - [06/Dec/2020:12:42:13 +0900] "GET /edgeliving/project/member/register.jsp HTTP/1.1" 200 46425
+0:0:0:0:0:0:0:1 - - [06/Dec/2020:12:42:14 +0900] "GET /edgeliving/project/css/register.css HTTP/1.1" 200 1189
+0:0:0:0:0:0:0:1 - - [06/Dec/2020:12:42:14 +0900] "GET /edgeliving/project/css/main.css HTTP/1.1" 200 7808
+0:0:0:0:0:0:0:1 - - [06/Dec/2020:12:42:14 +0900] "GET /edgeliving/project/js/httpRequest.js HTTP/1.1" 200 2081
+0:0:0:0:0:0:0:1 - - [06/Dec/2020:12:42:14 +0900] "GET /edgeliving/semiImages/logo.png HTTP/1.1" 200 64672
+0:0:0:0:0:0:0:1 - - [06/Dec/2020:12:42:14 +0900] "GET /edgeliving/project/member/image/star.gif HTTP/1.1" 200 1164
+0:0:0:0:0:0:0:1 - - [06/Dec/2020:12:42:14 +0900] "GET /edgeliving/semiImages/logo.jpg HTTP/1.1" 200 4481
+0:0:0:0:0:0:0:1 - - [06/Dec/2020:12:42:14 +0900] "GET /favicon.ico HTTP/1.1" 404 761

@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+	.oAddList_path{
+	font-size:13px;
+	margin-left:80%;
+	text-decoration: none;
+	}
+	
+	strong{
+		color:gray;
+	}
+	p{
+		display:inline;
+		color:gray;
+		font-size:13px;
+	}
+	table,tr,th,td{
+		margin-top:40px;
+		width:1200px;
+		margin-left:15%;
+		border-bottom:1px solid lightgray;
+		border-collapse: collapse;
+		text-align: center;
+	}
+	#oAddList_addBtn{
+		margin-top:30px;
+		background: #3A4050;
+		margin-left:77%;
+		color: white;
+		width:100px;
+		height:30px;
+		border-radius: 10px;
+	}
+	#oAddList_ca{
+		margin-top:30px;
+		margin-left:15%;
+		width:1200px;
+		height:117px;
+		border:1px solid lightgray;
+		border-collapse: collapse;
+		margin-bottom:100px;
+	}
+	#oAddList_caution{
+		border-bottom:lightgray;
+		background: #e8e7e7;
+		text-size:11px;
+	}
+	li{
+		color:gray;
+		font-size:13px;
+	}

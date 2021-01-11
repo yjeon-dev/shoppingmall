@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+	.myPagePwCheck_path{
+	font-size:13px;
+	margin-left:90%;
+	text-decoration: none;
+	}
+	strong{
+		color:gray;
+	}
+	h2{
+	margin-bottom: 30px;
+	}
+	#myPagePwCheck_div{
+	margin-top:30px;
+	margin-left:350px;
+	margin-bottom:100px;
+	width:1200px;
+	height:250px;
+	text-align:center;
+	float: left;
+	border: 1px solid gray;
+	}
+	#myPagePwCheck_idname{
+	text-size:13px;
+	}
+	#OK{
+	width:100px;
+	height:40px;
+	color:white;
+	background:#3A4050;
+	border-radius:15px;
+	}

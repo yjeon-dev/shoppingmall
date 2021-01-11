@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+
+h3, h4{
+	margin-left:50px;
+}
+.register_path{
+	font-size:13px;
+	margin-left:90%;
+}
+.register_path>strong{
+	color:gray;
+}
+.register_register1, .register_basicinfo, .register_agreebox{
+	width : 1600px;
+	border-top : 1px solid gray;
+	border-bottom : 1px solid gray;
+	padding-top : 15px;
+	padding-bottom : 15px;
+	margin-left:50px;
+}
+.register_register2, .register_address2{
+	float : left;
+	width : 150px;
+	height : 100px;
+	padding-top : 35px;
+	text-align: center;
+
+}
+.register_register3{
+	padding-left : 155px;
+	width : 500px;
+	height: 100px;
+	padding-top : 13px;
+	margin-left : 20px;
+}
+
+.register_ptag{
+ 	color:gray; 
+ 	font-size:13px; 
+ 	display : inline;
+}
+.register_id, .register_pw, .register_pwCheck, .register_name, 
+.register_address1, .register_phone, .register_email, .register_gender{
+	width : 90%;
+	border-bottom : 1px solid lightgray;
+	padding-top : 15px;
+	padding-bottom : 15px;
+	margin-left:50px;
+}
+.register_dob{
+	padding-top : 15px;
+	padding-bottom : 15px;
+	margin-left:50px;
+}
+textarea{
+	background:#E7EAED;
+	resize : none;
+}
+section{
+	margin-left:100px;
+}
+.register_txt{
+	font-size:13px;
+}

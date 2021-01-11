@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+	.memberModify_path{
+	font-size:13px;
+	margin-left:90%;
+	text-decoration: none;
+	}
+	
+	.memberModify strong{
+		color:gray;
+	}
+	
+	#memberModify_info{
+		width:1198px;
+		height:90px;
+		border : 1px solid lightgray;
+		margin-left : 15%;
+		margin-bottom : 1%;
+	}
+	#memberModify_profile{
+		float : left;
+		padding-top: 10px;
+		margin-left : 10px;	
+	}
+	span{
+		float : left;
+		height:60px;
+		border-right : 1px solid lightgray;
+		margin-top:15px;
+		margin-left : 25px;	
+	}
+	#memberModify_thanks{
+		float : left;
+		height:70px;
+		padding-top: 30px;
+		margin-left : 30px;
+		font-size : 15px;
+	}
+	.memberModify_address2{
+	float : left;
+	width : 150px;
+	height : 100px;
+	padding-top : 35px;
+	text-align: center;
+	}
+	.memberModify_ptag{
+ 	color:gray; 
+ 	font-size:13px; 
+ 	display : inline;
+	}
+
+	.memberModify_nowPw, .memberModify_newPw, .memberModify_newPwCheck,  
+	.memberModify_address1, .memberModify_phone{
+	width : 1198px;
+	margin-left : 15%;
+	border-bottom : 1px solid lightgray;
+	padding-top : 15px;
+	padding-bottom : 15px;
+}
+
+	#memberModify_modify{
+	margin-left:45%; 
+	background:pink; 
+	width:100px; 
+	height:50px; 
+	border-radius:15px;
+	}
+	#memberModify_cancel{
+	background:white; 
+	width:100px; 
+	height:50px; 
+	border-radius:15px;
+	}
+	#memberModify_delete{
+	display:inline;
+	margin-left:80%; 
+	background:lightgray; 
+	width:60px; 
+	height:30px; 
+	border-radius:10px;
+	color:white;
+	font-size:12px;
+	}
+	#memberModify_deleteForm{
+	border-bottom: 100px;
+	}
+
+	
+	
